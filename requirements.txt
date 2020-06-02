@@ -1,0 +1,13 @@
+flask
+flask-restplus
+celery
+redis
+tox
+flake8
+pytest
+pytest-cov
+pytest-flake8
+coverage
+coveralls
+werkzeug
+requests
