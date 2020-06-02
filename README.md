@@ -26,7 +26,7 @@ for more information see https://phoenixnap.com/kb/install-docker-compose-ubuntu
 In order to start the whole system easily, we can use docker-compose :
 
 ```
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 It will start three docker containers :
