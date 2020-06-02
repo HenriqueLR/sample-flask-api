@@ -1,4 +1,4 @@
-# Python3 Flask Rest API with Celery example
+# Sample flask api asynchronous tasks with celery usage Python3
 
 [![Build Status](https://travis-ci.org/matthieugouel/python-flask-celery-example.svg?branch=master)](https://travis-ci.org/matthieugouel/python-flask-celery-example)
 [![Coverage Status](https://img.shields.io/coveralls/github/matthieugouel/python-flask-celery-example.svg)](https://coveralls.io/github/matthieugouel/python-flask-celery-example?branch=master)
@@ -10,12 +10,23 @@ This project is an example of using Flask-restful and celery to perform asynchro
 
 Note : It's cleaner to use docker-compose to start the whole application (see the section below).
 
+## Dependencies
+
+```
+Docker-compose
+Docker
+
+if you are using ubuntu run the command 'apt install docker-compose'
+
+for more information see https://phoenixnap.com/kb/install-docker-compose-ubuntu
+```
+
 ## Usage with Docker Compose
 
 In order to start the whole system easily, we can use docker-compose :
 
 ```
-docker-compose up
+docker-compose up -d
 ```
 
 It will start three docker containers :
